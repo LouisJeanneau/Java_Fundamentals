@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b693a833-7af2-4afe-b21e-239f8d3494d5" name="Changes" comment="Exercice3">
+    <list default="true" id="b693a833-7af2-4afe-b21e-239f8d3494d5" name="Changes" comment="Exercice4">
+      <change afterPath="$PROJECT_DIR$/InputData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercice4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercice4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +38,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Louis/Google Drive/01_UTC/GI05_Erasmus/Java/Java Fundamentals&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Louis\Google Drive\01_UTC\GI05_Erasmus\Java\Java Fundamentals" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="wrap" />
@@ -52,7 +63,12 @@
       <option name="presentableId" value="Default" />
       <updated>1666024543690</updated>
       <workItem from="1666024545478" duration="4557000" />
-      <workItem from="1666084156999" duration="2341000" />
+      <workItem from="1666084156999" duration="7075000" />
+      <workItem from="1666560501462" duration="4161000" />
+      <workItem from="1666630615734" duration="13382000" />
+      <workItem from="1666689159024" duration="618000" />
+      <workItem from="1666886636913" duration="5141000" />
+      <workItem from="1667837039054" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Exercice3">
       <created>1666084779086</created>
@@ -61,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666084779086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercice4">
+      <created>1666089257553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666089257553</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercice3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice3" />
+    <MESSAGE value="Exercice4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -127,5 +151,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.io.FileNotFoundException" memberName="cause" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
