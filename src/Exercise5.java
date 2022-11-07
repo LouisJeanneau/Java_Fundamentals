@@ -18,7 +18,7 @@ public class Exercise5 {
      */
     public static void main(String[] args) {
         Exercise5 instance = new Exercise5();
-        System.out.println(instance.convertDate());
+        System.out.println("Converted dates : " + instance.convertDate());
     }
 
     /**
@@ -26,7 +26,7 @@ public class Exercise5 {
      * @return a correctly created MyData object
      * @throws IllegalArgumentException with input in invalid format
      */
-    protected MyData myDataFactory(String s) {
+    private MyData myDataFactory(String s) {
         MyData date;
         String[] splitString = s.split("(, )|[. _/]|-");
 
@@ -48,7 +48,7 @@ public class Exercise5 {
      *
      * @return The number of unique valid dates converted
      */
-    public int convertDate() {
+    private int convertDate() {
         // Array that will be populated by converted valid dates
         List<MyData> myDataList = new ArrayList<>();
         try {
@@ -99,7 +99,7 @@ public class Exercise5 {
     /**
      * Class that contains a single date
      */
-    protected class MyData implements Comparable<MyData> {
+    private class MyData implements Comparable<MyData> {
         // Pattern (using RegEx) used to verify that the input is in the correct format
         static protected Pattern patternFirst = Pattern.compile("\\d{2}/\\d{1,2}/\\d{4} \\w+");
         static protected Pattern patternSecond = Pattern.compile("\\d{4}-\\d{2}-\\d{2} \\w+");
@@ -155,8 +155,8 @@ public class Exercise5 {
         /**
          * Implemented to compare dates for duplicate removal
          *
-         * @param o
-         * @return
+         * @param o Object to compare with
+         * @return 1 if equal
          */
         @Override
         public boolean equals(Object o) {
@@ -175,7 +175,7 @@ public class Exercise5 {
          * Implemented to allow ordering of the dates list
          *
          * @param o the object to be compared.
-         * @return
+         * @return 1 if "a" is more recent in a.compareTo(b); 0 if same date; -1 otherwise
          */
         @Override
         public int compareTo(MyData o) {
