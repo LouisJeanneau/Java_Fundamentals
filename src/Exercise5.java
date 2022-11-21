@@ -9,6 +9,10 @@ import java.util.regex.Pattern;
  * @author Louis
  * @version 1.1
  * @since 27/10/2022
+ * More meaningfull title for main class
+ * Insert convertDate into main
+ * Split logics into multiple files
+ * Multiple try-catch is probably indicating something bad
  */
 public class Exercise5 {
     /**
